@@ -1,5 +1,5 @@
 {
-    "name": "october/rain",
+    "name": "jaxwilko/rain",
     "description": "October Rain Library",
     "homepage": "http://octobercms.com",
     "keywords": ["october", "cms", "rain"],
@@ -18,7 +18,7 @@
         "php": ">=7.0",
         "doctrine/dbal": "2.5.*",
         "erusev/parsedown-extra": "~0.7",
-        "kriswallsmith/assetic": "~1.3",
+        "assetic-php/assetic": "2.0/dev",
         "linkorb/jsmin-php": "~1.0",
         "oyejorge/less.php": "~1.7",
         "leafo/scssphp": "~0.6",
@@ -70,6 +70,12 @@
             "October\\Rain\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:assetic-php/assetic.git"
+        }
+    ],
     "autoload-dev": {
         "classmap": [
             "tests/TestCase.php"
