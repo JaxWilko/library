@@ -47,6 +47,7 @@
         "meyfa/phpunit-assert-gd": "1.1.0"
     },
     "replace": {
+        "october/rain": "self.version",
         "october/auth": "self.version",
         "october/config": "self.version",
         "october/database": "self.version",
